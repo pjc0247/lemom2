@@ -1,6 +1,6 @@
 # lemom2
 
-fiber-based(stackful) coroutine async framework
+fiber-based(stackful) coroutine & async framework
 
 yield
 ----
