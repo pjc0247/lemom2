@@ -44,6 +44,14 @@ def test_async
   end
 end
 ```
+```rb
+# with roap
+#-- async
+def test_async
+  # ....
+  return calc_result
+end
+```
 
 time literals
 ----
