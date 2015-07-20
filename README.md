@@ -10,6 +10,12 @@ coroutine<int> test(){
   yield(2);
   yield(3);
 }
+
+auto it = test();
+
+std::cout<< it.next(); // 1
+std::cout<< it.next(); // 2
+std::cout<< it.next(); // 3
 ```
 ```rb
 def test
