@@ -6,9 +6,11 @@ yield
 ----
 ```cpp
 coroutine<int> test(){
-  yield(1);
-  yield(2);
-  yield(3);
+  return coroutine<int>::create([](){
+    yield(1);
+    yield(2);
+    yield(3);
+  });
 }
 
 auto it = test();
