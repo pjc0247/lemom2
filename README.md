@@ -17,6 +17,11 @@ std::cout<< it.next(); // 1
 std::cout<< it.next(); // 2
 std::cout<< it.next(); // 3
 ```
+```cpp
+for(int v : test())
+  std::cout<< v; // 123
+```
+
 ```rb
 def test
   yield 1
