@@ -76,6 +76,7 @@ task<int> test(){
 ```
 ```rb
 def test
+  # 이건 몸에 안좋아 보임
   await delay ms 1
   await delay s 2
 end
